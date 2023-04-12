@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<geologic>
+  <datareference refCode="EPSG:4326" /> <!-- WGS84 -->
+  <viewreference refCode="EPSG:27572" /> <!-- WGS84 Pseudo Mercator 3857  4326 2154 -->
+  <!-- <viewreference epsg="2154" /> --> <!-- Lambert 93 -->
+  <center x="6.848" y="47.64" /> <!-- Center of the view, in data reference  x="2.0" y="48.77"    -->
+  <!-- <osmtiles href="http://serv-gi-44.utbm.fr/osm_tiles/%d/%d/%d.png" />  -->
+  <osmtiles href="http://a.tiles.mapbox.com/v4/mapbox.satellite/%d/%d/%d.jpg?access_token=pk.eyJ1IjoiZmxhc3NhYmUiLCJhIjoiY2o4YThyaHlhMGFkeDJ3bzBrbDJtdDZoZyJ9.uGOXgp-zdww3TerIK2Dv5g" />
+	<!-- <overpass href="http://pc-gi-43.utbm.fr/api/interpreter?data=" /> -->
+	<overpass href="http://overpass-api.de/api/interpreter?data=" />
+  <!-- <proxy host="proxy.utbm.fr" port="3128" enabled="true" /> -->
+  <proxy host="proxy.utbm.fr" port="3128" enabled="false" />
+  <zoom value="15" />
+</geologic>

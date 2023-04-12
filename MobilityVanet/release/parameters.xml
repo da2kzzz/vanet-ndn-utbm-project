@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mobilityVanet>
+  <bbox xmin="933225" ymin="2289875" />
+  <dataReference refCode="EPSG:27572" />
+  <meshes meshSize="5" nbMeshesX="2910" nbMeshesY="4000" />
+  <antennas meshSize="25" xmin="933225" ymin="2289875" nbMeshesX="582" nbMeshesY="800" />
+  <vehicle radius="120" />
+  <propagation transmissionDuration="30" tabouDuration="120" />
+  <defaultColor red="0.01" green="0.6" blue="0.9" alpha="0.8" />
+</mobilityVanet>
